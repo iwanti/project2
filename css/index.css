@@ -1,0 +1,89 @@
+*{     										 /*去除网页默认样式*/
+	margin: 0px;
+	padding: 0px;
+}
+body{ 										 /* 给body加入背景颜色*/
+	background: #FDEDEC;
+}
+#content{ 									 /*网页容器样式*/
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #fff;
+	font-family: Tahoma,Geneva,sans-serif;
+}
+#content .title{ 							 /*网页标题容器样式*/
+	height: 80px;
+}
+#content .title h1{							 /* 网页标题样式*/
+	display: inline-block;
+	padding: 0px 5px 0px 40px;
+	color: #2980B9;
+}
+#content .title img{ 						/*网页标题logo样式*/
+	height: auto;
+	width: 50px;
+	padding-top: 10px;
+}
+#content .title+p{  						/*网页标题下的段落样式*/
+	padding: 10px 40px 0px 40px;
+	line-height: 1.5em;
+	text-indent: 2em;
+	color: #154360;
+}
+.news_box{									 /* 新闻区块样式*/
+	clear: both;
+	margin-bottom: 60px;
+
+}
+.news_box h2{ 								/*新闻标题样式*/
+ 	margin-top: 80px;
+	padding-left: 40px;
+	color: #F06292;
+}
+.news_box .left{  							/*新闻区块左侧样式*/
+	float: left;
+	width: 340px;
+	margin-left: 40px;
+}
+.news_box .left img{  						/*新闻区块左侧图片样式*/
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 40px;
+	background: #fff;
+	width: 240px;
+}
+.news_box .right{ 							/*新闻区块右侧样式*/
+	float: right;
+	width: 620px;
+}
+.news_box .right p{						  /*新闻段落样式*/
+	margin:45px 10px 5px 10px;
+	padding-left:10px;
+	padding-right: 20px;
+	font-size: 18px;
+	color: #566573;
+	line-height: 1.5em;
+}
+.news_box .button{ 							 /*新闻区块按钮样式*/
+	width: 130px;
+	height: 50px;
+	border-radius: 10px;	
+	text-align: center;
+	background-color:#F8BBD0;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.button a{ 									 /*新闻区块超链接样式*/
+	display: block;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.button a:hover{							 /*新闻区块超链接访问后样式*/
+	color: #000;
+	background-color: #5DADE2;
+	border-radius: 10px;
+}
